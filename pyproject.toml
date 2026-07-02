@@ -1,0 +1,22 @@
+[project]
+name = "ablh-ceilometer-workbench"
+version = "0.1.0"
+description = "Clean Jupyter workbench for ceilometer ABLH detection with raw and Cloudnet data."
+readme = "README.md"
+requires-python = ">=3.11.11,<3.13"
+dependencies = [
+    "atmolidarpy>=0.2.1",
+    "cloudnet-api-client>=0.12.0,<0.13",
+    "h5netcdf>=1.6.0",
+    "ipykernel>=6.29.5",
+    "jupyterlab>=4.2.0",
+    "lidarpy>=0.0.9,<0.1",
+    "matplotlib>=3.8.0",
+    "netcdf4>=1.7.0",
+    "numpy>=1.26.0",
+    "scipy>=1.11.0",
+    "xarray>=2024.1.0",
+]
+
+[tool.uv]
+package = false
