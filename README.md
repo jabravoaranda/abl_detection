@@ -1,7 +1,9 @@
 # ABLH ceilometer workbench
 
-This folder contains a clean Jupyter notebook for estimating atmospheric
-boundary layer height from ceilometer data:
+Clean Jupyter workbench for estimating atmospheric boundary layer height from
+ceilometer data using simple methods.
+
+The main notebook is:
 
 - `ablh_clean_workbench.ipynb`
 
@@ -22,5 +24,5 @@ Then start Jupyter with:
 uv run jupyter lab
 ```
 
-Inside Jupyter, open `ablh_clean_workbench.ipynb` and select the kernel from
-this environment if needed.
+Inside Jupyter, open `ablh_clean_workbench.ipynb` and select the
+`Python (ablh-ceilometer-workbench)` kernel if needed.
