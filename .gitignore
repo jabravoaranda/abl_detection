@@ -54,6 +54,7 @@ ipython_config.py
 # Project data and generated outputs
 data/
 ablh_outputs_clean/
+ablh_outputs/
 *.rar
 
 # Editor and tool caches
