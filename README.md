@@ -6,6 +6,7 @@ ceilometer data using simple methods.
 The main notebooks are:
 
 - `ablh_batch_workbench.ipynb`: robust batch processing loop for one or more dates.
+- `ablh_monthly_api_batch_workbench.ipynb`: one-month batch loop using raw ICENET files and Cloudnet API downloads.
 - `ablh_single_date_workbench.ipynb`: direct execution for one date using the selected WCT parameters.
 - `ablh_wct_sensitivity_study.ipynb`: WCT threshold/width sensitivity study for one date.
 
